@@ -1,1 +1,3 @@
-alert("Health With Jusab AI Loaded Successfully!");
+function generateContent() {
+  alert("AI Content Generation Started!");
+}
