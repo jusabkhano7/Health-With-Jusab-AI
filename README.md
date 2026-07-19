@@ -186,6 +186,6 @@ background:#111827;
 <p>© 2026 Health With Jusab AI</p>
 
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
