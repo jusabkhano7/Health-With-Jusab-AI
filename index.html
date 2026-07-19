@@ -1,47 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Health With Jusab AI</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+color:white;
+}
+
+header{
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:40px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+}
+
+.services{
+padding:60px 10%;
+}
+
+.services h2{
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+color:#111;
+padding:25px;
+border-radius:12px;
+text-align:center;
+}
+
+.card h3{
+margin-bottom:15px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:#111827;
+}
+</style>
+
 </head>
 
 <body>
 
 <header>
-<h1>Health With Jusab AI</h1>
-<p>Your AI Partner for Health, SEO & Digital Marketing</p>
+<div class="logo">Health With Jusab AI</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
 </header>
 
-<main>
+<section class="hero">
 
-<section>
-<h2>About</h2>
-<p>Health With Jusab AI helps users create health blogs, SEO content, YouTube scripts and social media posts using AI.</p>
+<h1>Your AI Partner</h1>
+
+<p>Create SEO Blogs, YouTube Scripts, Instagram Captions & Forever Living Content using AI.</p>
+
+<a class="btn" href="#">Get Started</a>
+
 </section>
 
-<section>
+<section class="services">
+
 <h2>Our Services</h2>
 
-<ul>
-<li>AI Blog Generator</li>
-<li>YouTube Script Generator</li>
-<li>SEO Meta Generator</li>
-<li>Instagram Caption Generator</li>
-</ul>
+<div class="cards">
+
+<div class="card">
+<h3>SEO Blog Generator</h3>
+<p>Create SEO Friendly Blog Posts.</p>
+</div>
+
+<div class="card">
+<h3>YouTube Script</h3>
+<p>Generate Viral Video Scripts.</p>
+</div>
+
+<div class="card">
+<h3>Instagram Caption</h3>
+<p>Create Engaging Social Media Captions.</p>
+</div>
+
+<div class="card">
+<h3>Forever Products</h3>
+<p>Health & Wellness Content Generator.</p>
+</div>
+
+</div>
 
 </section>
-
-<section>
-<h2>Contact</h2>
-<p>Email: healthwithjusab@gmail.com</p>
-</section>
-
-</main>
 
 <footer>
+
 <p>© 2026 Health With Jusab AI</p>
+
 </footer>
 
 </body>
