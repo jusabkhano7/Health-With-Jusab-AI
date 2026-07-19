@@ -151,6 +151,35 @@ background:#111827;
 </div>
 
 </section>
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>SEO Blog Generator</h3>
+...
+</div>
+
+<div class="card">
+<h3>YouTube Script</h3>
+...
+</div>
+
+<div class="card">
+<h3>Instagram Caption</h3>
+...
+</div>
+
+<div class="card">
+<h3>Forever Products</h3>
+...
+</div>
+
+</div>
+
+</section>
 
 <footer>
 
